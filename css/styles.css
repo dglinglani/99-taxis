@@ -1,0 +1,210 @@
+/* fonts */
+
+
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('../fonts/pts55f-webfont.woff2') format('woff2'),
+         url('../fonts/pts55f-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pt_sansitalic';
+    src: url('../fonts/pts56f-webfont.woff2') format('woff2'),
+         url('../fonts/pts56f-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pt_sansbold';
+    src: url('../fonts/pts75f-webfont.woff2') format('woff2'),
+         url('../fonts/pts75f-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pt_sansbold_italic';
+    src: url('../fonts/pts76f-webfont.woff2') format('woff2'),
+         url('../fonts/pts76f-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Estilos Globais  */
+
+h2{
+    font-family: "pt_sansbold",sans-serif;
+    font-size: 32px;
+    color: #010101;
+    margin-top: 0;
+}
+i.fa.fa-bars {
+    font-size: 22px;
+}
+
+body{
+    background: #010101;
+}
+
+/* Header */
+
+header.header-99 {
+    background: #fcdb00;
+}
+nav.navbar {
+    margin-bottom: 0;
+    padding: 15px 0;
+}
+.logo img {
+    display: block;
+    float: left;
+}
+.logo h2 {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+ul.nav.navbar-nav.navbar-right li a{
+    font-family: "pt_sansbold",sans-serif;
+    font-size: 22px;
+    color: #010101;
+    margin-right: 50px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #010101;
+    color: #fcdb00 !important;
+    border-radius: 3px;
+}
+/* Main */
+
+#main {
+    background: #fcdb00;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#main .col-sm-12 {
+    padding: 25px 10px;
+}
+
+#main p{
+    font-family: "pt_sansregular",sans-serif;
+    font-size: 16px;
+    color: #313841;
+}
+#main p span{
+    font-family: "pt_sansregular",sans-serif;
+    font-size: 20px;
+    color: #313841;
+}
+.icone-platfaforma i {
+    font-size: 32px;
+    color: #010101;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.col-sm-6.form-99 label {
+    width: 100%;
+    font-family: "pt_sansregular",sans-serif;
+    font-size: 18px;
+    color: #313841;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.col-sm-6.form-99 input {
+    width: 70%;
+    padding: 5px 10px;
+}
+.col-sm-6.form-99 input[type="submit"] {
+    width: auto;
+    padding: 10px 15px;
+    background: #010101;
+    color: #fcdb00;
+    font-family: "pt_sansbold",sans-serif;
+    font-size: 22px;
+    border: 0;
+    border-radius: 3px;
+}
+
+/* Footer */
+
+footer.footer-99 {
+    background: #010101;
+    padding-top: 40px;
+}
+footer.footer-99 p{
+    font-family: "pt_sansregular",sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+footer.footer-99 ul li {
+    list-style: none;
+}
+footer.footer-99 ul li a{
+    font-family: "pt_sansregular",sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .col-md-4 {
+        width: 30%;
+        float: left;
+    }
+    .col-md-2 {
+        width: 17%;
+        float: left;
+        display: block;
+    }
+}
+@media screen and (max-width: 767px){ 
+    div#bs-example-navbar-collapse-1 {
+        width: 100%;
+    }
+    ul.nav.navbar-nav.navbar-right li{
+        border-bottom: 1px solid #010101;
+    }
+    ul.nav.navbar-nav.navbar-right li a {
+        margin-right: 0;
+        border-radius: 0;
+    }
+    #main .col-sm-12 {
+        padding: 10px 10px;
+    }
+    #main {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    ul {
+        padding-left: 0;
+    }
+    .footer-99 .col-md-4 {
+        margin-bottom: 30px;
+    }
+    .footer-99 .col-md-2 {
+        display: block;
+        float: left;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .icone-platfaforma {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .col-sm-6.form-99 input {
+        width: 100%;
+        padding: 5px 10px;
+    }
+}
